@@ -1,0 +1,33 @@
+img {
+    width: 30%;
+    height: 300px;
+    margin: 1.3%;
+    filter: grayscale(100%);
+    border: 2px solid rgb(219, 213, 213);
+
+}
+
+nav {
+    font-family: 'Macondo', cursive;
+    font-size: 3em;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-bottom: 3px solid rgb(219, 213, 213);
+    margin-left: calc(10%/6);
+    padding: 20px 0;
+
+}
+
+h1 {
+    text-transform: uppercase;
+    font-family: 'Macondo', cursive;
+    margin-left: calc(10%/6);
+}
+
+img:hover {
+    border: 2px solid rgb(193, 227, 72);
+    filter: none;
+    transform: translateY(-10px);
+    scale: 110%;
+    cursor: pointer;
+}
